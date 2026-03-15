@@ -1,0 +1,85 @@
+<!DOCTYPE html><html>
+<head>
+<title>Sushant Cloud Project</title><style>
+
+body{
+font-family: Arial;
+background: linear-gradient(120deg,#2193b0,#6dd5ed);
+margin:0;
+padding:0;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+.main{
+background:white;
+padding:30px;
+border-radius:12px;
+width:900px;
+box-shadow:0px 8px 20px rgba(0,0,0,0.2);
+}
+
+h1{
+text-align:center;
+color:#0d6efd;
+}
+
+.container{
+display:flex;
+gap:20px;
+}
+
+.login{
+width:40%;
+background:#f2f7ff;
+padding:20px;
+border-radius:10px;
+}
+
+.about{
+width:60%;
+background:#eef7ff;
+padding:20px;
+border-radius:10px;
+}
+
+input,textarea{
+width:100%;
+padding:8px;
+margin-top:8px;
+margin-bottom:10px;
+border-radius:5px;
+border:1px solid #ccc;
+}
+
+button{
+width:100%;
+padding:10px;
+background:#0d6efd;
+color:white;
+border:none;
+border-radius:5px;
+}
+
+.server{
+text-align:center;
+margin-top:15px;
+font-weight:bold;
+}
+
+</style></head><body><div class="main"><h1>Welcome to Sushant Cloud</h1>
+<p style="text-align:center">Powered by AWS Load Balancer</p><div class="container"><div class="login">
+<h3>User Login</h3><input type="text" placeholder="Enter Your Name">
+<input type="text" placeholder="Mobile Number">
+<textarea placeholder="Suggestion"></textarea><button>Submit</button>
+
+</div><div class="about"><h2>About This Cloud Project</h2><p>This website demonstrates AWS Load Balancer with multiple EC2 instances.</p><ul><li>EC2 Instances created in AWS</li>
+<li>Nginx Web Server installed</li>
+<li>Website deployed using User Data</li>
+<li>Target Group configured</li>
+<li>Application Load Balancer distributes traffic</li></ul></div></div><div class="server">Server Location : AWS EC2 Instance
+
+</div></div></body>
+</html>
